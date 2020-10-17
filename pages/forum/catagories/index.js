@@ -1,4 +1,4 @@
-import Nav from "../components/shared/Nav";
+import Nav from "../../../components/shared/Nav";
 const Catagories=()=>{
     return(
         <div>
@@ -17,9 +17,7 @@ const Catagories=()=>{
               <div className="fj-category-container">
                 <a className="fj-category subtle-shadow no-border" href="#">
                   {
-                    // <div className="category-icon">
-                    //   <img src="images/pen.png" />
-                    // </div>
+                  
                   }
                   <div className="category-information">
                     <div className="heading gray-90">General Discussion</div>
@@ -31,11 +29,7 @@ const Catagories=()=>{
             <div className="col-md-4">
               <div className="fj-category-container">
                 <a className="fj-category subtle-shadow no-border" href="#">
-                  {
-                    // <div className="category-icon">
-                    //   <img src="images/pen.png" />
-                    // </div>
-                  }
+                
                   <div className="category-information">
                     <div className="heading gray-90">Other Discussion</div>
                     <div className="description">Just general question</div>
@@ -46,11 +40,7 @@ const Catagories=()=>{
             <div className="col-md-4">
               <div className="fj-category-container">
                 <a className="fj-category subtle-shadow no-border" href="#">
-                  {
-                    // <div className="category-icon">
-                    //   <img src="images/pen.png" />
-                    // </div>
-                  }
+                 
                   <div className="category-information">
                     <div className="heading gray-90">Some Discussion</div>
                     <div className="description">Just general question</div>
@@ -60,7 +50,6 @@ const Catagories=()=>{
             </div>
           </div>
         </section>
-        {/* FORUM CATEGORIES ENDS */}
         </div>
     )
 }

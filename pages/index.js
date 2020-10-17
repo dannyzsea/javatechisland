@@ -1,5 +1,5 @@
-import Nav from "./components/shared/Nav"
-import Banner from "./Banner"
+import Nav from "../components/shared/Nav";
+import Banner from "../components/shared/Banner";
 const Home = () => (
     <div className="portfolio-app">
     <Nav/>
