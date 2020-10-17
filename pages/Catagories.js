@@ -1,8 +1,10 @@
+import Nav from "../components/shared/Nav";
 const Catagories=()=>{
     return(
         <div>
-            {/* FORUM CATEGORIES START */}
+         <Nav/>   
         <section className="section-title">
+      
           <div className="px-2">
             <div className="pt-5 pb-4">
               <h1>Categories</h1>
