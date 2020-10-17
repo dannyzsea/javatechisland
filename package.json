@@ -1,0 +1,20 @@
+{
+  "name": "javatechisland",
+  "version": "1.0.0",
+  "description": "My personal websiete",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+  "build": "next build",
+  "start": "next start"
+  },
+  "author": "Daniel Hagos ECE",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.5.3",
+    "next": "^9.3.3",
+    "node-sass": "^4.14.1",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0"
+  }
+}
