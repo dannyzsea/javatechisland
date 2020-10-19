@@ -1,10 +1,9 @@
-import Nav from "@/components/shared/Nav";
-import Banner from "../components/shared/Banner";
+
+
 const Home = () => (
-    <div className="portfolio-app">
-    <Nav/>
-      <Banner/>
-      <div className="container">
+    <>
+      
+      <div>
         {/* HOME PAGE STARTS */}
         <section className="section-title">
           <div className="px-2">
@@ -183,7 +182,7 @@ const Home = () => (
         </div>
       </footer>
       {/* FOOTER ENDS */}
-    </div>
+    </>
   );
   
   export default Home;

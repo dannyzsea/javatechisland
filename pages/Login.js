@@ -2,8 +2,8 @@ import Nav from "@/components/shared/Nav";
 const Login=()=>{
     return(
         <>
-         <Nav/>   
-     <div className="container">
+          
+  
         <section className="section-title">
           <div className="px-2">
             <div className="pt-5 pb-4">
@@ -31,7 +31,7 @@ const Login=()=>{
             </div>
           </div>
         </div>
-        </div>
+       
         </>
     )
 }

@@ -2,7 +2,7 @@ import Nav from "@/components/shared/Nav"
 
 const Portfolios=()=>{
     return(<>
-      <Nav/><div className="container">
+      <Nav/><>
   
 <section className="section-title">
           <div className="px-2">
@@ -134,7 +134,7 @@ const Portfolios=()=>{
             </a>
           </div>
         </section>
-    </div>
+    </>
     </>)
 }
 export default Portfolios;

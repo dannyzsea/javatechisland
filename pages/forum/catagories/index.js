@@ -1,8 +1,8 @@
-import Nav from "@/components/shared/Nav";
+
 const Catagories=()=>{
     return(
         <>
-         <Nav/> 
+         
          <div className="container"> 
         <section className="section-title">
       
