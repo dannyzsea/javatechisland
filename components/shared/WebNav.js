@@ -1,10 +1,21 @@
-const Nav =()=>{
-    return(<div>
+import Link from "next/link";
+
+
+const WebLink=({children,className,href})=>{
+  return(
+  <Link href={href}>
+    <a className={className}>{children}</a>
+  </Link>
+  )
+}
+
+const WebNav =()=>{
+    return(
 <div className="navbar-wrapper">
-        <nav className="navbar navbar-expand-lg navbar-dark fj-mw9">
-          <a className="navbar-brand mr-3 font-weight-bold" href="#">
-            DanielH
-          </a>
+<nav className="navbar navbar-expand-lg navbar-dark fj-mw9">
+          <WebLink className="navbar-brand mr-3 font-weight-bold" href="/">
+            DanielHagos
+          </WebLink>
           <button
             className="navbar-toggler"
             type="button"
@@ -20,45 +31,45 @@ const Nav =()=>{
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav">
               <li className="nav-item mr-3">
-                <a className="nav-link" href="#">
+              <WebLink href="/portfolios" className="nav-link">
                   Portfolio
-                </a>
+                </WebLink>
               </li>
+              
               <li className="nav-item mr-3">
-                <a className="nav-link" href="#">
-                  Courses
-                </a>
+                <WebLink className="nav-link" href="forum/catagories">
+                  Forum
+                </WebLink>
               </li>
+
+
               <li className="nav-item mr-3">
-                <a className="nav-link" href="#">
+                <WebLink className="nav-link" href="/cv">
                   Cv
-                </a>
-              </li>
-              <li className="nav-item mr-3">
-                <a className="nav-link" href="#">
-                  Ask me
-                </a>
+                </WebLink>
               </li>
             </ul>
+
+
             <ul className="navbar-nav ml-auto">
               <li className="nav-item mr-3">
-                <a className="nav-link" href="#">
+                <WebLink className="nav-link" href="/register">
                   Sign Up
-                </a>
+                </WebLink>
               </li>
+
               <li className="nav-item mr-3">
-                <a
+                <WebLink
                   className="nav-link btn btn-success bg-green-2 bright"
-                  href="#"
+                  href="/Login"
                 >
                   Sign In
-                </a>
+                </WebLink>
               </li>
             </ul>
           </div>
         </nav>
       </div>
-      
-    </div>)
+  )
 }
-export default Nav;
+export default WebNav;
